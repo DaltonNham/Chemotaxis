@@ -12,6 +12,11 @@ void setup()
 void draw()   
 {    
  	background(0,0,50);
+ 	stroke(76, 42, 7);
+	strokeWeight(25);
+	line(150,300,150,150);
+	stroke(0);
+	strokeWeight(1);
  	for (int i = 0; i<colony.length; i++)
  	{
  		colony[i].show();
